@@ -2,6 +2,11 @@
 *.csv
 *.jpg
 *.webp
+*.jpeg
+*.png
+*.mp4
+*.mp3
+
 
 # Ignore common data file formats
 *.json
