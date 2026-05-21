@@ -9,6 +9,7 @@
 
 
 # Ignore common data file formats
+*.csv
 *.json
 *.xml
 *.parquet
