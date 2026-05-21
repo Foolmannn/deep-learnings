@@ -1,5 +1,7 @@
 # Ignore all CSV files in any directory
 *.csv
+*.jpg
+*.webp
 
 # Ignore common data file formats
 *.json
