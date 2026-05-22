@@ -75,7 +75,9 @@ Max leaf nodes: 500  		 Mean Absolute Error:  243495
 Max leaf nodes: 5000  		 Mean Absolute Error:  254983
 ```
 Of the options listed, 500 is the optimal number of leaves.
-
+```
+class sklearn.tree.DecisionTreeRegressor(*, criterion='squared_error', splitter='best', max_depth=None, min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=None, random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, ccp_alpha=0.0, monotonic_cst=None)
+```
 # Conclusion
 Here's the takeaway: Models can suffer from either:
 
