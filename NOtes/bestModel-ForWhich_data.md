@@ -1,4 +1,5 @@
-Here is a summary of major machine learning model types and the best kind of data to use them for:
+## Summary of major machine learning model types and the best kind of data to use them for:
+
 
 ### 1. Supervised Learning
 Used when you have **labeled data** (input-output pairs) for prediction or classification.
