@@ -1,4 +1,4 @@
-Here is a concise, step-by-step guide to learning machine learning from the beginning, based on current best practices:
+
 
 ## 1. Learn Python & Essential Libraries
 Start by mastering the core programming language and tools used in ML.
