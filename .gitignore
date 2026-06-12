@@ -8,6 +8,7 @@
 *.mp3
 
 
+
 # Ignore common data file formats
 *.csv
 *.json
