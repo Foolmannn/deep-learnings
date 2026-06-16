@@ -18,6 +18,8 @@
 *.h5
 *.pkl
 *.pickle
+*.pdf
+
 
 # Ignore entire data directories (common names)
 data/
