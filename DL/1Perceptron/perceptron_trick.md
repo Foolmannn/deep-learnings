@@ -1,4 +1,3 @@
-
 # The Perceptron Trick in Deep Learning – Detailed Study Notes
 
 The **Perceptron Trick** is an important concept in the foundation of neural networks and deep learning. It explains how a perceptron learns by adjusting its weights and bias whenever it makes an incorrect prediction.
@@ -824,34 +823,8 @@ Here is a quick revision summary.
 | Convergence | Guaranteed for linearly separable data under standard assumptions |
 | XOR | Cannot be solved by a single-layer perceptron |
 
-# 14. Practice Questions
-
-Try answering these questions to check your understanding.
-
-**Knowledge check** (/4 answered)
-
-## What should you study next?
-
-Since you are building your understanding of deep learning from the perceptron, I recommend this sequence\:
-
-1. **Perceptron** – Basic architecture and working.
-2. **Perceptron Trick** – How weights and bias are updated.
-3. **Multi-Layer Perceptron (MLP)** – Hidden layers and forward propagation.
-4. **Activation Functions** – Sigmoid, Tanh, ReLU, Leaky ReLU, and Softmax.
-5. **Loss Functions** – MSE, Binary Cross-Entropy, and Categorical Cross-Entropy.
-6. **Gradient Descent** – How neural networks optimize their weights.
-7. **Backpropagation** – How gradients are calculated through multiple layers.
 
 The most important next topic is **Multi-Layer Perceptron (MLP)** because it extends the single perceptron into a network capable of learning nonlinear patterns.
 
-![Machine Learning cơ bản](https://images.openai.com/static-rsc-4/T_DDSvTNBSy5rsd-QWBMgJfTgeorMvG7fkJld41wu1ay4LFDPSGQEWBhXEx6OzcvfWEvi95NT3h40WZRELXIuaO9gkF-3YfCikpS7ou3i7k5Fqg123aG82Rjnq_FMYeI6Ajbq30-BcoMTkR_jrLXQWwLDut5H7p-AqfHNmCQD2rlQPwqHXOGxVyn7yuErxKA?purpose=fullsize)
-
-![The Perceptron: A Foundational Analysis of the First Learning Machine - perfecXion.ai](https://images.openai.com/static-rsc-4/7xctGoSPaUrIfeZX0yLbjmiXT_4WNvcT_AdjVFxIU65UtPw2SFNw3VBYn8179EKgKbhxazSllp6KZYTRjiZQZQxkV14DxbgC6ZRFyGvYCKm8TfuIXnEcjZdoc69GxN2QFBZ8nQ9FikYpW8iBAzi16ei_XnNFr1qMhYuRD5vGdNaRxmXkfOtp1Sw6mieCiv08?purpose=fullsize)
-
-![Lecture 3: The Perceptron](https://images.openai.com/static-rsc-4/6tsjjUavaX6LBeva2pPKTC_XsFLF2OYWD1foZvub93boS34gvxZ7lbkSSiMeQ6VLAcyOQjGq4TYRJCD6Dr-Tq8TNN_LIavIMB0fQHq0ry1_g0UNri67uUVVs5PXdze17xv2S0GGZ6fUt6wbcBUzWdWCORwuFVjSY8anvYyMFAoKUllV8YFqjCE9-5GfkLY_s?purpose=fullsize)
-
-![Day #14: The Dawn of Deep Learning — The Perceptron: Simple Origins, Profound Future | by Monica Ashok | Medium](https://images.openai.com/static-rsc-4/60bTbXz7ex2KJngGs-4PpThFApaiQ7ixHlJrXPxaz6kPRT5qSisJIZZzySXiTHgzp_Kxztu5huTVzQqP10V6WgG1QzuZ-brqMng362vmAfll0dVZAr3HiWYmfrVIlPzmpc2Y-ZMiijKh2rkkt_aDDxdrylsxpuk2ZNIWUe1zqiqjjKh7GVWfXBUO4-kMSndb?purpose=fullsize)
-
-![Multilayer Perceptrons: Architecture, Forward Pass & PyTorch - Interactive | Michael Brenndoerfer | Michael Brenndoerfer](https://images.openai.com/static-rsc-4/gHiokI4g6Noi0QwGQHnVHJ8lJy1C4NbCiuIcWNvAzcCwMZaKNEbXWACWr09iuqC63hONYSai17XxYGJvqGKIJlXYn-rCWpHg6sAEL49gL4ZYlEaR68Pq5-ulZukNUOMdNV6ICl4XME3pBuUB9bHfVFoYJgdBRDqdf0i-aPf5aD_5UT2J5attwLmEmy5VG2ii?purpose=fullsize)
 
 ---
