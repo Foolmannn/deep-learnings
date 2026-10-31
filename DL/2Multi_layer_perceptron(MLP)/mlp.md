@@ -15,7 +15,7 @@ An MLP generally consists of three types of layers\:
 1. Input Layer
 2. Hidden Layer(s)
 3. Output Layer
-
+![MLP](images/mlp.jpg)
 ### Example
 
 Suppose we want to build a neural network that predicts whether a student will pass or fail based on\:
@@ -189,7 +189,7 @@ In a standard fully connected MLP, every neuron in one layer is connected to eve
 This is also called a **Dense Layer** or Fully Connected Layer.
 
 Consider this architecture\:
-
+![MLP](images/mlp0.jpg)
 Suppose we have\:
 
 - Input layer: 3 neurons
@@ -255,6 +255,7 @@ Suppose we have a simple MLP\:
 - 2 input neurons
 - 2 hidden neurons
 - 1 output neuron
+![MLP](images/mlp1.jpg)
 
 Our input is\:
 
@@ -459,6 +460,7 @@ The sigmoid function converts any real-valued input into a value between 0 and 1
 $$
 \sigma(x)=\frac{1}{1+e^{-x}}
 $$
+![MLP](images/mlp2.jpg)
 
 Properties\:
 
@@ -484,6 +486,7 @@ Tanh stands for hyperbolic tangent.
 $$
 \tanh(x)=\frac{e^x-e^{-x}}{e^x+e^{-x}}
 $$
+![MLP](images/mlp3.jpg)
 
 Properties\:
 
@@ -511,6 +514,7 @@ Examples\:
 | 0 | 0 |
 | 2 | 2 |
 | 5 | 5 |
+![MLP](images/mlp4.jpg)
 
 Properties\:
 
@@ -536,6 +540,7 @@ x & x>0\\
 $$
 
 Usually\:
+![MLP](images/mlp5.jpg)
 
 $$
 \alpha=0.01
@@ -1120,6 +1125,7 @@ Mini-batch gradient descent is widely used for training neural networks.
 Now let's combine everything.
 
 Training an MLP generally involves the following steps\:
+![MLP](images/mlp6.jpg)
 
 ### Step-by-step training
 
@@ -1674,6 +1680,7 @@ Characteristics\:
 - Low training loss.
 - High validation loss.
 - Good training performance but poor generalization.
+![MLP](images/mlp8.jpg)
 
 ### Techniques to prevent overfitting
 
@@ -1696,6 +1703,7 @@ These discourage excessively large weights.
 **2\. Dropout**
 
 Dropout randomly disables a proportion of neurons during training.
+![MLP](images/mlp7.jpg)
 
 For example\:
 
@@ -1940,12 +1948,6 @@ Now that you understand MLP, I recommend following this Deep Learning learning p
 11. **Transformers and Attention**
     
     The foundation of modern NLP and generative AI.
-
-## Test your understanding
-
-Try answering these questions before moving to the next topic.
-
-**MLP knowledge check** (/5 answered)
 
 **My recommendation\:** Before moving to CNN, become comfortable implementing an MLP from scratch using NumPy. In particular, understand matrix dimensions, forward propagation, the chain rule, and backpropagation. These concepts will make the rest of Deep Learning much easier.
 
