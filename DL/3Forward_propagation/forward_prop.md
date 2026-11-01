@@ -32,7 +32,7 @@ Each neuron performs three major operations\:
 3. Applies an activation function.
 
 The output of one layer becomes the input of the next layer.
-
+![](nn.jpg)
 The overall process can be represented as\:
 
 $$
@@ -742,7 +742,7 @@ $$
 Notice that the bias is broadcast across all three examples.
 
 The resulting matrix contains the weighted sums for all neurons and all examples.
-
+![](mat.jpg)
 ### Why is batch processing useful?
 
 1. Efficient matrix operations.
@@ -1211,21 +1211,4 @@ Since you are currently learning Deep Learning after studying the Perceptron and
 
 **My recommendation\:** Before jumping into backpropagation, make sure you can independently calculate $Z$, $A$, and the output of a multi-layer network using matrix multiplication. These are the foundations you will repeatedly use when learning how gradients flow backward through the network.
 
-![Forward Pass: It's All About the Flow! - Euron Daily | Euron Community](https://images.openai.com/static-rsc-4/qrKZ1OUhUrG3X3jSWsNHAcPVR8eWYJFAwdw5c8xgss8DHb7CXKDaI0QEL0Jwpk48QJesLjN4aA4iS71VEGx82GX8yOLDbP5PfTJRuTEhfjy1PavKv4gLkWtZaX5hYKXlxptXB_TwsJfyeszcJJmc5nlnE5gd_qSY31qesQQ7CEnLTlMb6mjSBEKJh22HFnbl?purpose=fullsize)
-
-![FFN Activation Functions: ReLU, GELU, and SiLU for Transformer Models - Interactive | Michael Brenndoerfer | Michael Brenndoerfer](https://images.openai.com/static-rsc-4/R5zlLUOlleJAQp5GxiNFnnP0dLJACsHU1Dx1sU8G_LIh3_xBsWXfgYurxjSFg3JmY2RbM1M1nhTUgGjcMdWyotUFnOv6mEZ8J3y5NRAsKkT60VyIriu13alKThlgSUcD5f2B0Inc7HgdK2QaNnUkTaVcIGppbfr5sBNrp58f5Oh87dImZgNncXJheLvvOmTL?purpose=fullsize)
-
-![What is a Neural Network? Visualising & Understanding a Neural Network In-depth. | adxy](https://images.openai.com/static-rsc-4/XEomGIyL6F3Om0RxdBeWE7sHMAp9zwjeazU4AaolQC3YOaIaK1MDNx8HT4MrbNbV-llXVM-l45FhmHAg_FhjK25IfrenepncdOtd3jRZHCib0B4NkL1hqKuGjLbCf2By3I5UJy_12SUMcY94BVxrKca_Mu7ujQePr4Z-75S61EC7Gajc7MA9X1TfVfDZ5Y7N?purpose=fullsize)
-
-![Activation Function : The True Brain of a Neural Network | by Athira Cm | Medium](https://images.openai.com/static-rsc-4/xncjslgapis4JNDnjvne9fRjLYdUJLK5BGDF36i2fm8Znwrw7B6RKf0g_T4rOtPGu4Hi1HOIDo6z-QRDdEg--kQW8l49seBBfiOFoYsX_HqncLGloBaSexblB29KZKoBQ9wgGRJf1GItovEvVSg98JFi_0sOrKqG3VGFFNOZj5KaO6rTdX7yQbohoqqplNKL?purpose=fullsize)
-
-![Discovering activation functions | PyTorch](https://images.openai.com/static-rsc-4/pxGvDKDSQndLYHzpWMBi1xjmbLMw-KCqDMlLcdEWTyOhcdTAsdWRp3rNi1OMxc81FPusxh0dR2EXZWUA1Pj52AVPIGIhdqDF0wnYsTMVHni486GYwfToYnFe_TJLiOus9ge-cCP3kdX9nA09JyrC8wAtlLZuo9yDtUKkOX3xirhz1JhnEWEvns0VXSmIT3lf?purpose=fullsize)
-
-![Forward Propagation](https://images.openai.com/static-rsc-4/mUy6c7Eoxe62iwsehMhAU0JT-HoFZ7NFVzK9_B0E9FltfbD_vOkcN26r7U552_vgfkHQ3GIO_JcAgBCMUc_z4PycUgqhdmiUNcp0sOFBDrhG2LKaCeLs_yVODBKj-Ik2qWpx9pthstLdYbY_gROMBSu-q0Dop4XcdCKQhsRudivQEdjDWeQR3DBSfVUzR5RX?purpose=fullsize)
-
-![vectorizing accross multiple examples](https://images.openai.com/static-rsc-4/JRXVjZoeE7rXFv5ZPVCV7MOJO9NhUtOgfJ5mkPtT-xaS-ITKNABOISxSXXC07kYZmb5XiwjgvI8TBn3jL7lROvn59W9WukRy02np_0Oqeb23jepz3fzICQ9Ffz0-YSRpv8iKngk71_7wuv7P9vUGCBJr0QEL9Ds3gAXqGMRQqXWQgxMYxCzOchmdvsvJ9BvD?purpose=fullsize)
-
-![Neural Networks for NLP - Complete NLP Series Part 6 - Wasil Zafar](https://images.openai.com/static-rsc-4/ZbNR2D2A4G5u1ktKmxuaVDcLfSdawvfeXwNhnHbp88HauSikfnDSncLwDoBz8e6gc8Pg4RYvBhzalWDDOlCVUkaTrvMkE0VKj_pVfYR5HhAf1abELwTi0jb-dntWIJrMlDs1IkprmxFl935dqKj1uioYahUadaPsFTqkut1kYQElKblhatt-eMQ77C1cFi-T?purpose=fullsize)
-
 ---
-Powered by [AI Exporter](https://saveai.net)
