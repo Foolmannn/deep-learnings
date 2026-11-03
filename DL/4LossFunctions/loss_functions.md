@@ -561,6 +561,8 @@ loss = mean_squared_log_error(y_true, y_pred)
 | Huber | Squared then linear | Moderate |
 | MSLE | Squared log difference | Depends on relative errors |
 
+![](regression_loss.jpg)
+
 # 5. Classification Loss Functions
 
 Classification is different from regression.
@@ -710,6 +712,10 @@ $$
 The prediction is correct because the probability of class 1 is low.
 
 ### Understanding BCE visually
+
+![](bce_loss.jpg)
+
+
 The graph demonstrates an important property\:
 
 - Correct and confident predictions receive low loss.
@@ -1059,7 +1065,7 @@ L\approx0.417
 $$
 
 This loss is then used in backpropagation.
-
+![](bp_loss.jpg)
 ## 6.1 An important mathematical relationship
 
 When Softmax and Categorical Cross-Entropy are combined, the gradient with respect to each logit becomes\:
@@ -1702,34 +1708,3 @@ $$
 This is how neural networks can balance prediction accuracy with model complexity.
 
 ---
-
-# 14. Test Your Understanding
-
-Try answering these questions to check whether you understand the concepts.
-
-**Knowledge check** (/ answered)
-
-## What I recommend studying next
-
-Since you are progressing through Deep Learning in this order\:
-
-1. Perceptron
-2. Perceptron Learning and Loss
-3. Multi-Layer Perceptron
-4. Forward Propagation
-5. Loss Functions
-
-Your next topic should be\:
-
-**Backpropagation in Deep Learning – Detailed Mathematical Derivation**
-
-This will connect everything you've learned so far: forward propagation, activation functions, loss functions, chain rule, gradients, and weight updates. It is one of the most important foundations for understanding how neural networks actually learn.
-
-![Huber Regression: A Smarter Approach to Handle Outliers in Machine Learning | by AlgoStalk | Medium](https://images.openai.com/static-rsc-4/eCIocUkRWbroskCbyR3BuKR4OYfartmus-EdfRBfGIbmrUFAJ_drV0PciKhwFB-mTdTWPijLBAxvz0nhL_QGvrUUhaM_U6OtGiql21x25SUIuLyH1OD6769yAcTmlooaLx-wGXmipU2gVlZ0wzXkneidbMrVdgwda_qF40cj7DFKo9twfroqschc1t6LdMu5?purpose=fullsize)
-
-![Multilayer Perceptrons: Architecture, Forward Pass & PyTorch - Interactive | Michael Brenndoerfer | Michael Brenndoerfer](https://images.openai.com/static-rsc-4/yq3UBjMbEUo7W3wRo6AnyfqDVSoX_7dk_e8iYPu8IhnYJmjTlpoudEVGC-c-YHGvC1Wtsvz0hATsJlsdjUfZJd1lZlNJdEn_vnQ54wg19jTPTEO_kR3Stp-4OpBCJdGS8dz4DXET3co1eY6J4d1KPfop4dRfJGM2V2XPPFy-TnmT0tM7k3x3-eSyV1-aCp8e?purpose=fullsize)
-
-![Google Colab](https://images.openai.com/static-rsc-4/BttcIOe_b3qDSlBy_SaS_sG7a6xc6UsF6K2VaKAURYafQdv9aUFBNcffE14mpnCLyy4FheNvzLtM2VZme00L8C_EqqZLE-Azju8-oarRlzrCpl99fsAu9kgshZRV8MV59gpVLmUYNzinXNsWbIR8Qblj8RXDLKYRjhA7YqWuIhKAvFdQ1SyZAcB-o1b6a6VV?purpose=fullsize)
-
----
-Powered by [AI Exporter](https://saveai.net)
