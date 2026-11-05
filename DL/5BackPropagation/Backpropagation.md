@@ -2,7 +2,6 @@
 
 Backpropagation is one of the most important concepts in Deep Learning. It is the fundamental algorithm that allows a neural network to **learn from its mistakes by adjusting its weights and biases**\.
 
-Since you have already studied Perceptrons, MLPs, Forward Propagation, and Loss Functions, we can connect all these concepts to understand how a neural network actually learns.
 
 # 1. What is Backpropagation?
 
@@ -24,7 +23,7 @@ In simple terms\:
 4. We calculate gradients for every weight and bias.
 5. We update the weights and biases.
 6. We repeat the process until the network learns.
-
+![](./images/back_prop.jpg)
 **Important distinction\:**
 
 - Forward propagation calculates predictions.
@@ -254,6 +253,7 @@ This is the fundamental mathematical principle behind backpropagation.
 # 4. Architecture Used to Understand Backpropagation
 
 Let's consider a simple neural network\:
+![](./images/simplenn.jpg)
 
 Our network contains\:
 
@@ -874,6 +874,8 @@ The goal is to move the parameters in a direction that reduces the loss.
 # 9. Complete Backpropagation Flow
 
 Let's summarize the entire process.
+![](./images/flow.jpg)
+
 
 | Step | Operation | Purpose |
 |--------|--------|--------|
