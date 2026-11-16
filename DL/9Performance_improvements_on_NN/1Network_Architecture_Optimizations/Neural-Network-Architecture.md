@@ -54,6 +54,7 @@ A neural network consists of\:
 - Output layer
 
 The input layer receives the data, hidden layers learn patterns and representations, and the output layer produces the final prediction.
+![](../../images/nn.jpg)
 
 ### A. Shallow Neural Network
 
@@ -107,6 +108,7 @@ Output Layer
 Each hidden layer can learn different levels of representation.
 
 For example, in image recognition\:
+![](../../images/cnn.jpg)
 
 - Early layers learn simple features such as edges and lines.
 - Middle layers learn textures and shapes.
@@ -195,6 +197,7 @@ Where\:
 - $a$ \= Neuron output.
 
 The number of neurons in a layer determines how many computational units are available to learn representations at that stage.
+![](../../images/nn_parameter.jpg)
 
 ### A. Too Few Neurons
 
@@ -861,7 +864,7 @@ It helps make training more stable and often allows faster convergence.
 During training, the distribution of activations can change as network parameters are updated.
 
 Batch Normalization adjusts these activations using the mean and variance calculated from the current mini-batch.
-
+![](../../images/batch_norm.jpg)
 ## A. Why is Batch Normalization Needed?
 
 Suppose a neural network has multiple hidden layers.
@@ -1148,18 +1151,3 @@ These values are an example starting architecture, not a universally optimal con
 | Batch Normalization vs Weight Initialization | Batch Normalization operates on activations during training; weight initialization sets starting weights |
 
 ---
-
-# 6. Test Your Understanding
-
-**Architecture optimization quiz** (/5 answered)
-
-**Next topic in your roadmap\:** Optimization Techniques — Gradient Descent optimizers, learning rate and scheduling, adaptive optimizers (SGD, Momentum, AdaGrad, RMSprop, Adam), and how they improve neural network training.
-
-![Deep Learning in PyTorch with CIFAR-10 dataset | by Sergio Alves | Medium](https://images.openai.com/static-rsc-4/xTAtSyPBd6KbOtFBE8CFMjkiFw-Td-OVeSyQcUXE4J80YhIuJ2dszwgaMPaO0Cb9V7vBFBqChM6PyNpLIfLN_NIQB8iTWtooeLmg9Pp2OTNBZQDei3xKEtZQayFmMgs8YwFDE9YzLenB9B2LSbPX2ZDoe2awJ3-PTHprDDg9gZONC3zf_vddmhsulIwA6ucK?purpose=fullsize)
-
-![Project 4: Deep Learning with TensorFlow](https://images.openai.com/static-rsc-4/UEuTn08pW_8q6MDUq-nAVWmv7ufung3f6WuPzvEZHySbHwKvqGccjji7VSIC2sABcOwhlRW9BKkJGQWsyoj-bGqvB2pa-uq3Irl7SGpPWu9xC5i8PAnR6SIF2GsqU_9elLGiNOVu3GjVtkeQClt5BUSdMey_JXgPwkUigihieOna1PScZw1HuYtvNcwZQnL5?purpose=fullsize)
-
-![The basic units: neurons — Introduction<br> to Machine Learning](https://images.openai.com/static-rsc-4/23-_al-EK2x9z6xU5fOHQt1H94gYwQRdG3NcnIq6NYxUjwo1TcBs0vAYjkkYaxEP72jWgqaiq2AnruYJdM_uKie2E-qObP7NqkeSdosCQCm5AiX-v0oURI1cyeKrMraRq9EOH0pNeEQ0oZxfyB2Jx5kwGwWNYjfnO8R60LvCDkxw6dWS0m9XJ0tIfze9J34E?purpose=fullsize)
-
-![Deep Learning Training Fundamentals Explained Simply | by Dewasheesh Rana | Mar, 2026 | Medium](https://images.openai.com/static-rsc-4/tJB-hO8f_XPxaQVF8PJvBfZTOW9d7dM3ocxbLiYXLEVoyG2GI_ANfxQK6MWbse3sFBoLXn-ZnrT8JqTiOfy5eUe0C6VvnRhsiWQYNd8gUg7gqPibysBfMCmtpgTQj5wB0wPSYoddI6Ybz67eVI4Vb6RJamup_KStu5_-jQGFhXEzbETM7lcsJ7GVNtoaDIr4?purpose=fullsize)
-
