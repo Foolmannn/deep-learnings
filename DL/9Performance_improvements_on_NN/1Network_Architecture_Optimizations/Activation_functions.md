@@ -1,5 +1,3 @@
-
-
 # Activation Functions in Deep Learning (DL)
 
 ## 1. Introduction to Activation Functions
@@ -182,6 +180,7 @@ Where $a$ is a constant.
 - Commonly used in the output layer of regression models.
 
 ### Graph
+![](../../images/activation_func/linear_act.jpg)
 ### Advantages
 
 1. Simple to implement.
@@ -239,6 +238,9 @@ $$
 | 5 | 0.9933 |
 
 ### Graph
+![](../../images/activation_func/sigmoid_act.jpg)
+
+
 ### Characteristics
 
 1. Produces outputs between 0 and 1.
@@ -330,6 +332,7 @@ $$
 | 5 | 0.9999 |
 
 ### Graph
+![](../../images/activation_func/tanh_act.jpg)
 ### Derivative
 
 $$
@@ -409,6 +412,7 @@ $$
 | 5 | 5 |
 
 ### Graph
+![](../../images/activation_func/relu_act.jpg)
 ### Derivative
 
 $$
@@ -500,6 +504,7 @@ is a commonly used negative slope.
 | 5 | 5 | 5 |
 
 ### Graph
+![](../../images/activation_func/leaky_relu_act.jpg)
 ### Characteristics
 
 - Allows a small negative output.
@@ -602,6 +607,7 @@ Where $\alpha$ controls the negative saturation value.
 - Differentiable everywhere.
 
 ### Graph
+![](../../images/activation_func/elu_act.jpg)
 ### Advantages
 
 1. Allows negative outputs.
@@ -709,7 +715,7 @@ After applying Softmax, the approximate outputs are\:
 | Dog | 0.242 |
 | Bird | 0.099 |
 | **Total** | **1.000** |
-
+![](../../images/activation_func/softmax_act.jpg)
 ### Characteristics
 
 1. Converts logits into probability distributions.
@@ -1185,27 +1191,5 @@ The selection of an appropriate activation function can significantly affect the
 
 ---
 
-## 10. Quick Revision Questions
 
-**Test your understanding** (/6 answered)
 
-[Check answers] [Reset]
-
-**Suggested next topic\:** Weight Initialization Techniques (Xavier, He, and Random Initialization), which directly connects to activation functions and helps understand how neural networks are trained effectively.
-
-![activation functions, part 3 : linear and softplus for regression output layer in dl | by Sirine Amrane | Medium](https://images.openai.com/static-rsc-4/rrrXHKUV-5eEkIYMRYbne3ZGoHWNbj-tWI3RBeoVsQZNRLzy5iSgDAuvPPveAFBX9xqpbuafZkBisX2qK-KMJ8hXbJvBMJ3Z4eBClcC2WRixSu4Qv8PmuFpBtuV_Wz-ljr0zG0PjwuGkUYYXDKTyWingvwESrLYbAjWRpYkQMQ6QLfYyklNnwEPI-JYCHI59?purpose=fullsize)
-
-![Medium](https://images.openai.com/static-rsc-4/N96s4PG6zjD23YmbwkjyzvDLyElRhWMA-v94ls6xIbm8fXb7nc4zv2QjpgK6PJVUB6wHEqvLz1A_HLxamjGwlg16U2bkyhAWMjiB7jFFLxw3fiDlXKjyCBzZ76Ud4iZeplwiu9XAwCGfwAlQwFyt8QmuiLnmvX8eobh4MLVh50ijQUgUO_uVKv0gHpUUm3MT?purpose=fullsize)
-
-![Hyperbolic Tangent (tanh) Function Definition and Properties | Soyam Pradhan posted on the topic | LinkedIn](https://images.openai.com/static-rsc-4/aCF_iSDMWhmhpYpjIf-6mjh39-p4zhPVZLbW10E5CrVZR7_ugj264yYkGzTCiFjmxWBL11vu50yfLOD1Jadu5HNeXKD_2nRMVSl6m59ppZw9Ds1NjD6iUNz4Fcm8imqBB8IR6CLQjKBt3anpkjROsYyQzhE7G0RF_v_3jckizKOnnPFvuLkfrDAlDdOAd58L?purpose=fullsize)
-
-![Activation and loss functions (part 1) · Deep Learning](https://images.openai.com/static-rsc-4/9gRpJi1iPs5YqyK0jQshDmGMtPDcpfnkWZ7HdyBMcHMNJ6Dt1o6acnxDXZ07TP0b0gPqC5AR0tvMlr9Azo5T9d0xuPGT9I8WKBuCggmUrZqVotRB0IBEHoPzlQqhFO125z1SeLLkdxHG7cjij-A2h765uzRqnDsiphZOBNljcinbuBeZY80V3nMjw6ahqHhX?purpose=fullsize)
-
-![Understanding Deep Neural Networks for beginners — Part 2 | by Chamuditha Kekulawala | Medium](https://images.openai.com/static-rsc-4/CpapbgywKPMcoNS2YkVTbbBxj4Z3KR16xIrqSgxaTDjJAfnepfjcNOq-X9MpaxSas_kYSg_ZLjFDGdzAGEOTWaX3G1LGp-KakcRaBZpO7recSEW2GxTgue-LQkTLpOB4O_yegoJ7nsneb3stXUkcqGyTonsZ4uEYql-nApPsEYwHF-MXSSJFsjqPJy81Z73W?purpose=fullsize)
-
-![The curious case of the vanishing & exploding gradient | by Emma Amor | ML Cheat Sheet | Medium](https://images.openai.com/static-rsc-4/Y-XMfhQG-sc-g0jPzMlpPXLm_IDk2l9Q58AjfJLw00NcX1maHRYzo9s0yfssArFWI-xZKqIw3xT55Xpg2T-zjIw6jo_SwQ2EwJBwO0Vf0sMfeHV7V7TDyH7l4EK2_tGA2aHm6TP9KnQpuy4G9c1W9YtMtfHT8gQNVcbiJQLP8pcP2Mu_FXsy8JPxKs-QP6M4?purpose=fullsize)
-
-![Cross-Entropy Loss: Make Predictions with Confidence | Pinecone](https://images.openai.com/static-rsc-4/oqGNS1NxoEPZ3ua5VLnKZHhURbU4mZqZl5PF_BIfQ0xxXGpPCEPDUscCe8eYaxfs6MO77ufrT4T_BfiuW5eL2wDQ7h_0w0cEKuRtc1Wwzj-FLNEb8ThbBpjgJGufylLAXNZ-KXzFUBqsxu2B6JZVAYvyR6OuW8CPFfxw1mP65wDCiqCYJeisZP5Yig0YMnS7?purpose=fullsize)
-
----
-Powered by [AI Exporter](https://saveai.net)
