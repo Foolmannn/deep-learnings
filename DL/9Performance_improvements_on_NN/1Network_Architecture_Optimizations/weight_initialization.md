@@ -1,5 +1,7 @@
 # Weight Initialization in Deep Learning (DL)
 
+https://www.deeplearning.ai/ai-notes/initialization/index.html
+
 ## 1. Introduction
 
 **Weight Initialization** is the process of assigning initial values to the weights and biases of a neural network before training begins.
