@@ -727,7 +727,7 @@ When Batch Normalization is not suitable, other normalization techniques can be 
 | Group Normalization | Divides channels into groups and normalizes each group | Computer vision with small batches |
 | RMS Normalization | Normalizes using root mean square without subtracting the mean | Transformers and LLMs |
 
-These techniques provide different approaches to controlling activation distributions.  [IEEE Technology Navigator](https://technav.ieee.org/topic/batch-normalization/?utm_source=chatgpt.com) [DOI](https://doi.org/10.1109%2FTPAMI.2023.3319005?utm_source=chatgpt.com) [Dive into Deep Learning 1.0.3 documentation](https://d2l.ai/chapter_convolutional-modern/batch-norm.html?highlight=batchnorm2d&utm_source=chatgpt.com)
+These techniques provide different approaches to controlling activation distributions.  [IEEE Technology Navigator](https://technav.ieee.org/topic/batch-normalization) [DOI](https://doi.org/10.1109%2FTPAMI.2023.3319005) [Dive into Deep Learning 1.0.3 documentation](https://d2l.ai/chapter_convolutional-modern/batch-norm.html?highlight=batchnorm2d)
 
 ---
 
