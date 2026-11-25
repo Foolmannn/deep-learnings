@@ -24,6 +24,7 @@ They are needed for the following reasons\:
 ### Basic Working Process of Optimization
 
 Optimization works together with forward propagation and backpropagation.
+![](../../images/nn_training_loop.jpg)
 
 The process can be explained through the following steps\:
 
@@ -75,6 +76,7 @@ Gradient Descent follows a similar principle\:
 - The slope represents the gradient.
 - The downhill direction represents the direction of weight updates.
 - The lowest point represents a minimum of the loss function.
+![](../../images/gd_optimization.jpg)
 
 ### Mathematical Working of Gradient Descent
 
@@ -261,6 +263,8 @@ The network updates its weights after processing each mini-batch.
 | Training speed | Can be slow | Fast updates | Efficient |
 | Common usage | Small datasets | Online learning | Deep Learning |
 
+![](../../images/gd_types.jpg)
+
 **Important\:** Mini-Batch Gradient Descent is commonly used in modern Deep Learning because it offers a practical balance between computational efficiency and gradient stability.
 
 ---
@@ -330,6 +334,7 @@ Benefits include\:
 - More stable training.
 - Efficient weight updates.
 - Better utilization of computational resources.
+![](../../images/gd_learning_rate.jpg)
 
 ### Methods of Selecting Learning Rate
 
@@ -970,6 +975,7 @@ $$
 | Exponential Decay | Decreases exponentially over time |
 | Cosine Annealing | Decreases following a cosine curve |
 | Reduce on Plateau | Decreases when performance stops improving |
+![](../../images/lr_schedules.jpg)
 
 ### Python Implementation Using Keras
 
@@ -1119,7 +1125,7 @@ Ordinary Gradient Descent may repeatedly move from one side to the other, causin
 Momentum smooths these updates by retaining information from previous directions.
 
 As a result, it reduces excessive side-to-side movement and helps the optimizer move toward the minimum more efficiently.
-
+![](../../images/momentum.jpg)
 ### Advantages of Momentum
 
 1. **Faster Convergence\:** It accelerates learning when gradients consistently point in the same direction.
@@ -1260,7 +1266,7 @@ By selecting appropriate optimization techniques, we can improve training speed,
 
 ---
 
-## 10. Important Points to Remember for Exams
+## 10. Important Points to Remember 
 
 | Concept | Remember |
 |--------|--------|
@@ -1278,16 +1284,3 @@ By selecting appropriate optimization techniques, we can improve training speed,
 
 **Important distinction\:** Adam already incorporates Momentum-like behavior through its first moment estimate. Therefore, you do not normally need to add classical SGD Momentum separately when using Adam.
 
-![Neural Networks for NLP - Complete NLP Series Part 6 - Wasil Zafar](https://images.openai.com/static-rsc-4/ZbNR2D2A4G5u1ktKmxuaVDcLfSdawvfeXwNhnHbp88HauSikfnDSncLwDoBz8e6gc8Pg4RYvBhzalWDDOlCVUkaTrvMkE0VKj_pVfYR5HhAf1abELwTi0jb-dntWIJrMlDs1IkprmxFl935dqKj1uioYahUadaPsFTqkut1kYQElKblhatt-eMQ77C1cFi-T?purpose=fullsize)
-
-![Machine learning paradigms and mathematical foundations · DDeras](https://images.openai.com/static-rsc-4/J0RtNnLOU-JsoZMX5F8uFV8AvHn7JluC4HRU-EjEoseoIE4MLPDoh6Jy7qP5x3Yw7bYQCHefwak7qfZXN9mQts9xUe5pArpkxde8Kv5Kkw8458I4nbJEdX1_QnEvIxHaTvze0whNe6RVx7xyPlgQ7IlnbdoHwPhVrb57glxw4e20cDcO-_ITP4jeNzufgR7C?purpose=fullsize)
-
-![Medium](https://images.openai.com/static-rsc-4/h9zj2xmg0P1B5kjDxGpP-rGGrqi1WHBC92VN1gwkP8IuRSOD8Ek-DhSNBTbaArSnYo7PWUt-TMEotpLNO0kwFE_SiUmeYEE5-mCQTIraLeXDvkNcyx1oYiQ7pHdjKB1YO76Yx8t3Btgoub7onfs8uW7BLj0x3TEjxRsLrWWc69u3He1ieCAe4xn8bwlc4DM_?purpose=fullsize)
-
-![Building Strong Intuition for Gradient Descent in Neural Networks Through Elementary Calculus | by Tomio Kobayashi | May, 2026 | Medium](https://images.openai.com/static-rsc-4/4cx9Lxs-IBaKa3jBUFk0wt87bsEdD8M3LUPyfjp64TYnCFBbpxFTLBqf9IYGjJ9Cz_-sgCVAvSi6BK9rYAMVemIY_bJzF_rXgIsvSkZwnShpFlQv-2B-ikV2IBa1JmAcPfXnMT_N_xLPmtTcMj0kwQGnyb0okAhhMLvtm_bZ0v_tffZhIhYFRNDi7LyiR_tW?purpose=fullsize)
-
-![Learning Rate Scheduling: From Step Decay to One-Cycle](https://images.openai.com/static-rsc-4/GcyQsT7QnD6dbZZwm52V97Dqm1PEOvCZ0pAJ8sN--ao1pkuxlczhiRUIZtP0wzbIqbkCBtY2irWso-O4BYOEx_sQ-xx_mu7P5Fe5I-Y1Ie_qP79iRkHFZI8_UGAze0DqT4lFvLbVk0DbtaHDnggUZcMsaNFXmKEkEc-Hw25RM6-FdDKmcEyZlPdsrO2ORzHO?purpose=fullsize)
-
-![Mastering Gradient Descent: Optimizing Neural Networks with Precision. | by Omkar Hankare | Medium](https://images.openai.com/static-rsc-4/6cT5hdnhyEzMwrjY0A7F4WZk_udxG1fCpbHSBkR7fD2obMLmqW_66GXnXg3jOv25ptoL_XwveeJ2TsbokLV05DhMfhTx0Lrbsw3-mxm2bH9SZzazADuffmeLYBCM4igcnCUIpK6I9U_6kRsvUvWUzNIxkRTkfWfx4NsabuajL9_FbPmPdnhxtGVYZIAaUCe2?purpose=fullsize)
-
----
