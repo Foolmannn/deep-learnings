@@ -1,5 +1,3 @@
-
-
 # Momentum in Deep Learning (DL)
 
 ## 1. Introduction to Momentum
@@ -20,7 +18,7 @@ Momentum helps the optimizer remember the direction of previous updates and use 
 It works similarly to a moving object: an object moving in a particular direction tends to continue moving in that direction unless an external force changes its motion.
 
 Similarly, momentum allows gradient descent to continue moving in a direction that consistently reduces the loss.
-![](../../images/momentum0.jpg)
+![](../../images/optimizers/momentum0.jpg)
 
 ## 2. Basic Idea of Momentum
 
@@ -108,7 +106,7 @@ A larger momentum coefficient gives more influence to previous updates, while a 
 ## 4. How Momentum Works: Step-by-Step
 
 Let's understand the working process of Momentum in Deep Learning.
-![](../../images/momentum.jpg)
+![](../../images/optimizers/momentum.jpg)
 
 **Step 1: Initialize the weights**
 
@@ -240,7 +238,7 @@ In some loss functions, the gradient changes direction frequently along one dime
 This causes standard Gradient Descent to oscillate.
 
 Momentum reduces these oscillations by accumulating consistent gradient directions and smoothing inconsistent updates.
-![](../../images/momentum.jpg)
+![](../../images/optimizers/momentum.jpg)
 
 ### B. Accelerates Convergence
 
