@@ -677,10 +677,4 @@ $$
 - Keras RMSprop documentation
 - PyTorch RMSprop documentation
 
-**My suggestion\:** Before moving to Adam, make sure you understand the difference between Momentum and RMSprop\:
-
-- Momentum uses an average of **gradients** to improve the direction of updates.
-- RMSprop uses an average of **squared gradients** to adapt the size of updates.
-- Adam combines both approaches.
-
 ---
